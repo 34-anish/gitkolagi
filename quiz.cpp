@@ -29,7 +29,7 @@ class question{
 			a[7]='b';
 			q[8]="Who is known as father of science? \n a. Albert Einstein \n b. Issac Newton \n c. Gallileo Gallielo \n d. Charles Babbage \n";
 			a[8]='c';
-			q[9]="Who wrote the first hello world program? \n a.Brian Kernighan \n b. Bjarne Stroutsop \n c. Wang Lee \n d. Dennis Ritchie \n";
+			q[9]="Who wrote the first hello world program? \n a. Brian Kernighan \n b. Bjarne Stroutsop \n c. Wang Lee \n d. Dennis Ritchie \n";
 			a[9]='a';
 			
 			
