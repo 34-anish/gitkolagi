@@ -1,8 +1,8 @@
 #include <iostream>
-
+#include<windows.h>
 #include <stdlib.h>
 #include <time.h>  
-
+#include<MMsystem.h>
 using namespace std;
 class question{
 	string q[10];
@@ -30,7 +30,7 @@ class question{
 			q[8]="Who is known as father of science? \n a. Albert Einstein \n b. Issac Newton \n c. Gallileo Gallielo \n d. Charles Babbage \n";
 			a[8]='c';
 			q[9]="Who wrote the first hello world program? \n a.Brian Kernighan \n b. Bjarne Stroutsop \n c. Wang Lee \n d. Dennis Ritchie \n";
-			
+			a[9]='a';
 			
 			
 		  
@@ -45,11 +45,12 @@ class question{
 			
 			if (opt == a[i])
 			{
+			PlaySound(TEXT("D:\\Examples\\Qt-5.15.0\\multimedia\\audioengine\\qml\\content\\whistle.wav"),NULL,SND_SYNC);
 			cout <<"Correct Option" <<endl;
 			}
 			else 
 			{
-			//	PlaySound(TEXT("D:\\Examples\\Qt-5.15.0\\svg\\embedded\\desktopservices\\data\\Explosion.wav"),NULL, SND_SYNC);
+				PlaySound(TEXT("D:\\Examples\\Qt-5.15.0\\svg\\embedded\\desktopservices\\data\\Explosion.wav"),NULL, SND_SYNC);
 				cout <<"Wrong Option" <<endl;
 			}
 			
